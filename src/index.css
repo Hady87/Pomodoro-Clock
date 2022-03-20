@@ -1,13 +1,65 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #008080;
+
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 1.8;
+}
+h2 {
+  text-align: center;
+  color: white;
+  line-height: 1.8;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+span {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.iconClass {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.boxTimer {
+  width: 180px;
+  height: 120px;
+  border: 4px solid #2f4f4f;
+  border-radius: 20px;
+  margin: auto;
+}
+.boxTimerWarning {
+  width: 180px;
+  height: 120px;
+  border: 4px solid #2f4f4f;
+  border-radius: 20px;
+  margin: auto;
+
+  background-color: red;
 }
